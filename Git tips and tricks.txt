@@ -1,0 +1,4 @@
+whenever you get stuck in Vim text editor
+first 
+STEP 1 press esc key 2 to 3 times
+STEP 2 type :q!
