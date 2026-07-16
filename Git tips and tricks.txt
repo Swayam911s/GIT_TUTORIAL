@@ -16,3 +16,12 @@ STEP 4 type :wq! and press enter
 w stands for write
 q stands for quit
 ! stands for forced command
+
+
+
+To open the file directly from the git bash:
+1. Use cat file_name.extension  to view the text of the file on the git bash
+
+2. use start file_name.extension to open the file 
+
+3. use code file_name.extension to open the file in code editor
