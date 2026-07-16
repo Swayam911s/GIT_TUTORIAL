@@ -25,3 +25,32 @@ To open the file directly from the git bash:
 2. use start file_name.extension to open the file 
 
 3. use code file_name.extension to open the file in code editor
+
+
+
+BRANCH MERGING AND CONFLICTS
+
+1. to add new branch command      (git branch branch_name)
+2. to add new branch and switch to that branch command     (git switch -c branch_name)
+3. to switch to other branch do command       (git switch branch_name)
+4. To delete a branch do command       (git branch -d branch_name)
+
+
+for merge conflict 
+when you encounter merge conflict there are 2 methods to resolve the conflicts 
+METHOD 1 :  By Notepad
+            just keep the changes you want and delete the unwanted changes
+
+METHOD 2 : By VS code   
+            Just click on the ready made arguments created oon the VS code
+            LIKE 1. keep the cbove chnages (Keep the changes of that branch only)
+            2. keep the below changes (keep the changes of the other branch only)
+            3. Keep both Changes (keep the change of both the branch)
+
+
+After resolving the conflict do add and commit to save changes
+after that your branch will be merge
+
+
+To create new file in Git Bash only
+write the command touch file_name.extension
