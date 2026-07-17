@@ -54,3 +54,27 @@ after that your branch will be merge
 
 To create new file in Git Bash only
 write the command touch file_name.extension
+
+
+
+
+
+
+TO DELETE A FILE FROM THE FOLDER WITH THE HELP OF Git
+use command (git rm file_name.extension)
+
+
+To again restore the deleted file (Not ADDED AND COMMITED)
+first use command (git restore --staged file_name.extension)
+then do command (git restore file_name.extension)
+
+
+To again restore the deleted file (ADDED AND COMMMITED)
+if the deleted file is added and commited and you again want to restore it then
+
+STEP 1: use command git log --oneline
+(and copy the commit code in which the file was present)
+
+STEP 2: then use command (git restore --source=commit_code_paste file_name.extension)
+by this the deleted file will be restored
+
