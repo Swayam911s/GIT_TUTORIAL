@@ -18,8 +18,5 @@ hello
 
 hello
 
-<<<<<<< HEAD
-Hello from branch main
-=======
 Hello from branch login
->>>>>>> login
+
