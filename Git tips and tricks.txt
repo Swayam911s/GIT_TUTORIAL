@@ -78,3 +78,14 @@ STEP 1: use command git log --oneline
 STEP 2: then use command (git restore --source=commit_code_paste file_name.extension)
 by this the deleted file will be restored
 
+
+
+
+
+TO PUBLISH A GIT REPO FROM FILE EXPLORER TO GITHUB
+STEP 1: First open github and create a new REPO
+STEP 2: Open the folder or file you want to publish from file explorer in git bash
+STEP 3: write command (git remote add origin {copy repo url})
+STEP 4: Write command (git push -u origin main)
+
+
